@@ -1,0 +1,15 @@
+Date=2021-12-06
+Time=11:54:00
+InputPath=/Users/Jonathan/Desktop/Caecilian Lands/FSCV
+OutputPath=/Users/Jonathan/Desktop/Caecilian Lands/GPA/2021-12-06_11_54_00
+Files=Bboulengeri BM2000.474.fcsv,Bboulengeri BM2000.476.fcsv,Bboulengeri BM2000.556.fcsv,Bboulengeri BM2000.607.fcsv,Bboulengeri BM2000.611.fcsv,Bboulengeri BM2000.621.fcsv,Bboulengeri BM2000.629.fcsv,Bboulengeri BM2002.789.fcsv,Bboulengeri BM2002.796.fcsv,Bboulengeri BM2002.797.fcsv,Bboulengeri BM2002.800.fcsv,Bboulengeri BM2002.848.fcsv,Bboulengeri BM2002.849.fcsv,Bboulengeri BM2005.319.fcsv,Bboulengeri BM2005.320.fcsv,BM2000.476.fcsv,BM2000.556.fcsv,BM2000.607.fcsv,BM2000.611.fcsv,BM2000.621.fcsv,BMNH 2000.629.fcsv,BMNH 2002.789.fcsv,BMNH 2002.796.fcsv,BMNH 2002.797.fcsv,BMNH 2002.800.fcsv,BMNH2000_474.fcsv,BMNH2002.848.fcsv,BMNH2002.849.fcsv,BMNH2005_320.fcsv,BMNH2005.319.fcsv
+LM_format=.fcsv
+NumberLM=12
+ExcludedLM=
+Scale=True
+MeanShape=MeanShape.csv
+eigenvalues=eigenvalues.csv
+eigenvectors=eigenvectors.csv
+OutputData=OutputData.csv
+pcScores=pcScores.csv
+SemiLandmarks= 
