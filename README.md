@@ -84,7 +84,7 @@ Now that you have both your manual and automated landmark files, it’s time to 
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/52302862/145131569-66bf68eb-68f1-4b6e-9bba-fc1c25e9c00d.png">
 
-The results of the generalized procrustes analysis and a principal component analysis (PCA) can be visualized using the GPA module as outlined here, but they can also be imported in R to be analyzed further. We will use the latter.
+The results of the generalized procrustes analysis and a principal component analysis (PCA) can be visualized using the GPA module, but they can also be imported in R to be analyzed further. We will use the latter.
 
 **Visualizing data in R**
 
