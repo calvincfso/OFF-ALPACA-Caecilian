@@ -8,6 +8,14 @@ A common method of quantifying shape variation is geometric morphometrics, which
 
 Here, we outline the steps needed to analyze intraspecific shape variation in the skull of the caecilian, Boulengerula boulengeri, and assess the degree of sexual dimorphism in the species. We use both manual and automated landmarking methods, and compare the accuracy of the automated landmarks relative to the manual ones.
 
+# Table of Contents
+* Automated Landmarks - .fcsv landmark files generated through ALPACA
+* Manual Landmarks - .fcsv landmark files generated through ALPACA
+* PLY - .ply caecilian skull models used in this demo
+* Raw GPA Outputs - files exported by the GPA module after running the generalized procrustes analysis and principal component analysis
+* OFF_ALPACA_Caecilian_Script.R - R script used to analyze and visualize the data in the demo
+* pcScores.csv - speadsheet with the individual PCA scores, sex classifications, and more. 
+
 # Resources
 
 **Software**
