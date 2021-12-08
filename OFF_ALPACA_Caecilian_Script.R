@@ -3,7 +3,9 @@
 
 rm(list = ls())
 install.packages("geomorph")
+install.packages("ggplot2")
 library(geomorph)
+library(ggplot2)
 
 # Load Data ---------------------------------------------------------------
 
@@ -12,7 +14,18 @@ library(geomorph)
 scores <- read.csv(file.choose())
 
 
-# PCA ---------------------------------------------------------------------
+# Manual Sexual Dimorphism ------------------------------------------------
+
+# plot a PCA showing shape variation between males and females
+# using the manual landmarks only
+manual_scores <- scores[which(scores$Method == "MANUAL"),]
+ggplot(data.frame(manual_scores), aes(x = PC.1, y = PC.2, colour = Sex, shape = Sex)) + geom_point(size = 4) +
+  geom_text(aes(label=ID),hjust=-0.25, vjust=-0.25) + scale_shape_manual(values=c(17,19,15)) +
+  labs(x = "PC 1", y = "PC 2")
+# separation of color/shapes suggest differences in shape related to sexual dimorphism
+
+# Manual vs Automated PCA -------------------------------------------------
+
 
 # plot the PCA showing shape variation between landmarking methods and sex
 ggplot(data.frame(scores), aes(x = PC.1, y = PC.2, colour = Method, shape = Sex)) + geom_point(size = 4) +
@@ -20,7 +33,6 @@ ggplot(data.frame(scores), aes(x = PC.1, y = PC.2, colour = Method, shape = Sex)
   labs(x = "PC 1", y = "PC 2")
 # some overlap in colored points indicate general similarity between the two methods
 # there is one automated outlier that differs from all other manual and automated points
-# separation of shapes suggest differences in shape related to sex
 
 
 # Regressions -------------------------------------------------------------
