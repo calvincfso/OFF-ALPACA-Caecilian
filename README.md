@@ -1,4 +1,4 @@
-# OFF-ALPACA-Caecilian
+# Manual vs. Automated Landmarks
 BISC6232 Hackathon ALPACA application on scans of caecilian skulls
 
 # Background information
