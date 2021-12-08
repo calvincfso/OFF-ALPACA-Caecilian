@@ -113,3 +113,8 @@ Figure 3. When plotting PC 1 scores for the manual and automated landmarks again
 
 
 # Conclusions
+
+We ultimately find that manual landmarking and automated landmarking with ALPACA produce largely incongruent results under a PCA. Only a few individuals between the two methods appear to plot close to each other, which would indicate that ALPACA generated automatic landmarks that matched the manual landmarks. The ingongruent landmarking of ALPACA could be the result of variation in the skulls that is outside of the bounds that ALPACA is able to account. Although these variations are still intraspecific variation, there appears to be limits on what ALPACA can register. In biological reality, these intraspecific variation may be the result of ontogeny or sexual dimorphism. We observed one individual with a shortened interfrontoparietal, which in turn caused the frontals to suture in the midline where it does not in other individuals.
+
+
+Sexual dimorphism seems to be weakly observable based on the PCA. Female caecilians seem to form a smaller cluster compared to male caecilians, which have some individuals falling within the female cluster. One caecilian of unknown gender was included, but due to the overlapping nature of male and female caecilians in the PCA plot, we are unable to determine its gender.
